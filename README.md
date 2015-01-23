@@ -7,5 +7,5 @@ Todos - notebook for recording tasks which should be done or already-made . For 
 
 NedoChat - it is simple chat (client part). Main functionality: login new user, send messages, emulation second user ( sending every 3 sec messages from service), logout, all messages are saved to database (SQlite used), delete all current user messages, delete all messages, start/stop another user emulator(service).
 
-DragAndDrow - one screen project , which allowed to draw a rectangles. Was made just for study the basics info about custom views and Canvas.
+DragAndDraw - one screen project , which allowed to draw a rectangles. Was made just for study the basics info about custom views and Canvas.
 
