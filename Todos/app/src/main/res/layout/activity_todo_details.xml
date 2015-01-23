@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/priorities"
+        android:popupBackground="@color/material_deep_teal_500"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="right"
+        android:popupElevation="11dp"
+        android:layout_marginRight="4dp"
+        android:paddingLeft="10dp"
+
+        android:paddingRight="10dp"
+        android:paddingBottom="4dp" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/todo_edit_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/todo_edit_summary"
+            android:imeOptions="actionNext"
+            android:background="@drawable/custom_edit_text" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/todo_edit_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="@string/todo_edit_description"
+        android:imeOptions="actionNext"
+        android:background="@drawable/custom_edit_text" />
+
+    <Button
+        android:id="@+id/todo_edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/todo_edit_confirm"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="7dp"
+        android:paddingBottom="7dp"
+        android:background="@drawable/rounded_button" />
+
+</LinearLayout>

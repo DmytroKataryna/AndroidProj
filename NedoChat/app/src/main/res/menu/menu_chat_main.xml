@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ChatMainActivity">
+
+    <!--It better us app:showAsAction="ifRoom" but on some devices items displayed incorrectly
+    so i use app:showAsAction="always" -->
+    <item
+        android:id="@+id/logout"
+        android:title="@string/Logout"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/shortcut"
+        android:title="@string/action_clear"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/app_settings"
+        android:title="@string/action_settings"
+        android:icon="@android:drawable/arrow_down_float"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/start_service"
+                android:title="@string/start_service"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/stop_service"
+                android:title="@string/stop_service"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/delete_all"
+                android:title="@string/delete_DB"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>

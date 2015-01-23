@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tile_bg"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list_view_messages"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:divider="@null"
+        android:transcriptMode="alwaysScroll"
+        android:stackFromBottom="true" />
+
+    <LinearLayout
+        android:id="@+id/llMsgCompose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <EditText
+            android:id="@+id/inputMsg"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@drawable/rounded_corner"
+            android:textColor="@color/text_msg_input"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="textCapSentences|textAutoCorrect" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_butt"
+            android:textColor="@color/white"
+            android:text="@string/btn_send"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:onClick="sendButtonClick" />
+    </LinearLayout>
+
+</LinearLayout>
