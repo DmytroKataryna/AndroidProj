@@ -1,7 +1,7 @@
 # AndroidProj
 my non commercial android project
 
-WorkBreaker - the main goal of this application is to alert user about make break in some time. When user starting work , he launching app and WorkBreaker periodically sends dialogue or notification and user could skip it or accept . So user , could every hour take a break and do exercises for eyes or spine))  At the end  work day , app show log info about skipped and accepted breaks. * For demonstrations period set to 15 seconds *Architecture of the program is built not correctly, so the code is not attractive.
+<b>WorkBreaker</b> - the main goal of this application is to alert user about make break in some time. When user starting work , he launching app and WorkBreaker periodically sends dialogue or notification and user could skip it or accept . So user , could every hour take a break and do exercises for eyes or spine))  At the end  work day , app show log info about skipped and accepted breaks. * For demonstrations period set to 15 seconds *Architecture of the program is built not correctly, so the code is not attractive.
 ![alt tag](https://cloud.githubusercontent.com/assets/7840893/5885415/f78b5d1c-a374-11e4-8657-158448015d1a.PNG)
 ![alt tag](https://cloud.githubusercontent.com/assets/7840893/5885413/f70ac922-a374-11e4-9174-02efe0317652.PNG)
 Todos - notebook for recording tasks which should be done or already-made . For storage and reading used SQLite+ContentProvider.
