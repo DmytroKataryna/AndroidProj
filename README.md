@@ -11,6 +11,8 @@ my non commercial android project
 <b>NedoChat</b> - it is simple chat (client part). Main functionality: login new user, send messages, emulation second user ( sending every 3 sec messages from service), logout, all messages are saved to database (SQlite used), delete all current user messages, delete all messages, start/stop another user emulator(service).
 ![alt tag](https://cloud.githubusercontent.com/assets/7840893/5885412/f709faba-a374-11e4-9b79-81367043cef3.PNG)
 
+<b>YahooRSS</b>  - simple RSS reader of yahoo news . This reader parse XML(yahoo rss) and displays news title,image and news data.
+![alt tag](https://cloud.githubusercontent.com/assets/7840893/5910060/eaeafdd2-a5be-11e4-9a52-b806001f372a.PNG)
+
 <b>DragAndDraw</b> - one screen project , which allowed to draw a rectangles. Was made just for study the basics info about custom views and Canvas.
 ![alt tag](https://cloud.githubusercontent.com/assets/7840893/5885411/ef0d3502-a374-11e4-83a3-34512054180c.PNG)
-
