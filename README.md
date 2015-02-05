@@ -14,5 +14,8 @@ my non commercial android project
 <b>YahooRSS</b>  - simple RSS reader of yahoo news . This reader parse XML(yahoo rss) and displays news title,image and news data.Сlicking on the news,user is redirected to the site and shows selected news.
 ![alt tag](https://cloud.githubusercontent.com/assets/7840893/5910060/eaeafdd2-a5be-11e4-9a52-b806001f372a.PNG)
 
+<b>WeatherWidget</b> - 4x1 home screen widget , which displays current Lviv weather (temperature , wind speed...). Used libs: Gson , Retrofit , Picasso and API http://openweathermap.org/.
+![alt tag](https://cloud.githubusercontent.com/assets/7840893/6061121/7a2d5374-ad4d-11e4-8201-cfb134268ee9.PNG)
+
 <b>DragAndDraw</b> - one screen project , which allowed to draw a rectangles. Was made just for study the basics info about custom views and Canvas.
 ![alt tag](https://cloud.githubusercontent.com/assets/7840893/5885411/ef0d3502-a374-11e4-83a3-34512054180c.PNG)
