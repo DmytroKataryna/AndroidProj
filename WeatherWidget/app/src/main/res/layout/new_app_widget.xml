@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin"
+    android:background="@drawable/back_cus"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/abc_btn_check_to_on_mtrl_015"
+            android:id="@+id/imageViewIcon"
+            android:layout_margin="2dp" />
+
+        <TextView
+            android:id="@+id/temp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/temp"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:contentDescription="@string/appwidget_text" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/loc_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/loc"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:contentDescription="@string/appwidget_text"
+
+                android:paddingTop="7dp" />
+
+            <TextView
+                android:id="@+id/wind_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/wind"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:contentDescription="@string/appwidget_text"
+
+                android:paddingBottom="3dp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:src="@android:drawable/ic_popup_sync"
+            android:id="@+id/refresh"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingTop="3dp"
+            android:contentDescription="@string/desc" />
+
+    </LinearLayout>
+
+</LinearLayout>
