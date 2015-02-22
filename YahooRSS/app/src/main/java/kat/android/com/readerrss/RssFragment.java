@@ -76,7 +76,7 @@ public class RssFragment extends Fragment implements AdapterView.OnItemClickList
                 RssAdapter adapter = new RssAdapter(getActivity(), items);
                 listView.setAdapter(adapter);
             } else {
-                Toast.makeText(getActivity(), "An error occured while downloading the rss feed.",
+                Toast.makeText(getActivity(), "An error occurred while downloading the rss feed.",
                         Toast.LENGTH_LONG).show();
             }
             progressBar.setVisibility(View.GONE);
