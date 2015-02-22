@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/detailLayout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="300dp"
+            android:layout_margin="5dp"
+            android:id="@+id/posterImageView"
+            android:contentDescription="@string/postImg" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_margin="1dp"
+                android:textSize="18sp"
+                android:textColor="#FB8C00"
+                android:text="@string/title" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/titleTextView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_margin="1dp"
+                android:textSize="18sp"
+                android:text="@string/genres"
+                android:textColor="#FB8C00" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/genresTxtView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:textSize="18sp"
+                android:layout_margin="1dp"
+                android:textColor="#FB8C00"
+                android:text="@string/release" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/releaseTextView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:textSize="18sp"
+                android:textColor="#FB8C00"
+                android:layout_margin="1dp"
+                android:text="@string/runtime" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/runtimeTextView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:textSize="18sp"
+                android:textColor="#FB8C00"
+                android:layout_margin="1dp"
+                android:text="@string/budget" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/budgetTextView" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="3dp"
+            android:src="@android:drawable/star_big_off"
+            android:id="@+id/detailStarImageView"
+            android:contentDescription="@string/starDescription" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="36sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/detailsAvgView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/countView"
+                android:layout_marginLeft="3dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/detailsAvgView"
+                android:textColor="#FB8C00" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/description"
+                android:textColor="#FB8C00" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/detailsDescriptionView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/detailsHomePageView" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
