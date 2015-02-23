@@ -1,11 +1,9 @@
 # AndroidProj
 my non commercial android project
 
-<b>MovieList</b> - android client for https://www.themoviedb.org , which displays lists of popular/upcoming/top rated movies . Also it is avaible search and displaying movies .
-![alt tag](https://cloud.githubusercontent.com/assets/7840893/6321214/b1dfa156-bafd-11e4-9def-1a11c99595b8.PNG)
-![alt tag](https://cloud.githubusercontent.com/assets/7840893/6321215/b62d8156-bafd-11e4-917b-d4200904b196.PNG)
-![alt tag](https://cloud.githubusercontent.com/assets/7840893/6321217/b7818a70-bafd-11e4-85c1-d6b1642dc083.PNG)
-![alt tag](https://cloud.githubusercontent.com/assets/7840893/6321218/b9f07cd0-bafd-11e4-895e-0a520418c601.PNG)
+<b>MovieList</b> - android client for https://www.themoviedb.org , which displays lists of popular/upcoming/top rated movies. Also it is avaible search and displaying movies .
+![alt tag](https://cloud.githubusercontent.com/assets/7840893/6321709/5d93d626-bb0c-11e4-8fb6-29541c86bffa.PNG)
+![alt tag](https://cloud.githubusercontent.com/assets/7840893/6321710/60883a66-bb0c-11e4-9125-95787aabd5b3.PNG)
 
 <b>WorkBreaker</b> - the main goal of this application is to alert user about make break in some time. When user starting work , he launching app and WorkBreaker periodically sends dialogue or notification and user could skip it or accept . So user , could every hour take a break and do exercises for eyes or spine))  At the end  work day , app show log info about skipped and accepted breaks. * For demonstrations period set to 15 seconds *Architecture of the program is built not correctly, so the code is not attractive.
 ![alt tag](https://cloud.githubusercontent.com/assets/7840893/5885415/f78b5d1c-a374-11e4-8657-158448015d1a.PNG)
